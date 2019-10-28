@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="app">
+        <div class="top-title">
+            <h3 class="title">Redehub</h3>
+        </div>
+        <div class="app-body">
+            <div class="intro"> 
+                <h1> Hi there, Welcome to redehub</h1>
+                <!-- <p class="sub-text-body">Please kindly fill out the form in the next page</p> -->
+                <form  method="post" id="intro-form" class="form-group text-center">
+                   
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Please what's your name">
+                        <p class="error">you have not set your name</p>
+                    
+                    <button type="submit" class="submit">Proceed &rarr;</button>
+
+                </form>
+            </div>
+
+
+            <!-- First form  -->
+
+
+            <form action="#" class="text-center form1">
+                <p class="form-intro"></p>
+            <div class="rest-form">
+
+                <div data-form="1" class="form-field">
+                        <div class="form-group">
+                            <label for="school">school</label>
+                            <input type="text" name="school" id="school" class="form-control" placeholder="Sunbeam intl.">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">age</label>
+                            <input type="number" name="age" id="age" class="form-control" placeholder="e.g. 17">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">gender</label>
+                            <!-- <input type="text" name="gender" id="gender" class="form-control"> -->
+                            <select name="gender" id="gender" class="form-control">
+                                <option >Your gender</option>
+                                <option value="male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="hybrid">Hybrid</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">phone</label>
+                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="e.g +2348095054222">
+                        </div>
+    
+                       
+                    
+                </div>
+
+                <div data-form="2" class="form-field">
+                    
+                        <div class="form-group">
+                            <label for="Laptop">Laptop</label>
+                            <select name="laptop" id="laptop" class="form-control">
+                                <option>Do you have a laptop</option>
+                                <option value="yes">Yes I have</option>
+                                <option value="no">Unfortunately</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Address">Address</label>
+                            <input type="text" name="Address" id="Address" class="form-control" placeholder="e.g. 6A lapai road, redehub">
+                        </div>
+                        <div class="form-group">
+                            <label for="class">class</label>
+                            <input type="text" name="class" id="class" class="form-control" placeholder="e.g. SS2">
+                        </div>
+                        <div class="form-group">
+                            <label for="english">english proficiency</label>
+                            <!-- <input type="range"  name="english" id="english" class="form-control"> -->
+                            <select name="english" id="english" class="form-control">
+                                <option>How fluents are you?</option>
+                                <option value="0">Not Fluent</option>
+                                <option value="1">Average</option>
+                                <option value="2">Very Fluent</option>
+                            </select>
+                        </div>
+    
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit"> Submit &rarr;</button>
+                </div>
+            </form>
+
+
+
+           
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
